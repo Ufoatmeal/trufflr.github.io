@@ -196,8 +196,17 @@ h1, h2, h3, h4, h5, h6 {
         float: center;
     }
 
+    
+
     .title-image {
         transform: rotate(0);
         position: static;
+    }
+}
+
+@media (max-width: 1400px) {
+    .profile-image {
+        height: 10rem;
+        width: 10rem;
     }
 }
