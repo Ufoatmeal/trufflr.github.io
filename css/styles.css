@@ -112,6 +112,12 @@ h1, h2, h3, h4, h5, h6 {
     right: 30%;
 }
 
+/* accordian */
+
+.abtn {
+    margin: 10px 0;
+}
+
 /* Download Buttons */
 
 .download-button {

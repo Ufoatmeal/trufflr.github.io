@@ -18,20 +18,20 @@
         <div class="container-fluid">
             <!-- Nav Bar -->
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-color">
-                <a class="navbar-brand" href=""><p>Trufflr</p></a>
+                <a class="navbar-brand" href="#title"><p>Trufflr</p></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#team">Team Members</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#sem1">Semester 1</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#sem2">Semester 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team Members</a>
                         </li>
                     </ul>
                 </div>
@@ -50,129 +50,176 @@
     <div class="white-section">
         
         <!-- Semester 1 -->
-        <div id="sem1" class="container-fluid">
-            <div class="container-sm text-center">
-    
-                <h3 class='section-heading text-center'>First Semester</h3>
-        
-                <div class="row">
-                    <div class="col-6">Plan (Sep 8)</div>
-                    <div class="col-6"><a role="button" download="projectPlan" href="./docs/plan/Trufflr_Project_Plan_Signed.pdf">Plan</a>, <a role="button" download="projectPlanPresentation" href="./docs/plan/ProjectPlan.pdf">Presentation</a></div>
+
+        <div class="row container-fluid" id="sem1">
+            <h3 class='section-heading text-center'>First Semester</h3>
+            <div class="col-6 center">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Plan (Sep 8)
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlan" href="./docs/plan/Trufflr_Project_Plan_Signed.pdf">Plan</button></strong>
+                            </div>
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlanPresentation" href="./docs/plan/ProjectPlan.pdf">Presentation</button></strong>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Milestone 1 (Oct 4)
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlan" href="">Requirement</button></strong>
+                            </div>
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlanPresentation" href="">Design</button></strong>
+                            </div>
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlanPresentation" href="">Test</button></strong>
+                            </div>
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlanPresentation" href="">Presentation</button></strong>
+                            </div>
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlanPresentation" href="">Progress Evaluation</button></strong>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Milestone 2 (Nov 1)
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlan" href="">Presentation</button></strong>
+                            </div>
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlanPresentation" href="">Progress Evaluation</button></strong>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Milestone 3 (Nov 29)
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlan" href="">Presentation</button></strong>
+                            </div>
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlanPresentation" href="">Progress Evaluation</button></strong>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                 </div>
-        
-                <div class="row">
-                    <div class="col-6">Milestone 1 (Oct 4)</div>
-                    <div class="col-6"><a href="">Requirement</a>, <a href="">Design</a>, <a href="">Test</a>, <a href="">Presentation</a>, <a href="">Progress Evaluation</a></div>
-                </div>
-        
-                <div class="row">
-                    <div class="col-6">Milestone 2 (Nov 1)</div>
-                    <div class="col-6"><a href="">Presentation</a>, <a href="">Progress Evaluation</a></div>
-                </div>
-        
-                <div class="row">
-                    <div class="col-6">Milestone 3 (Nov 29)</div>
-                    <div class="col-6"><a href="">Presentation</a>, <a href="">Progress Evaluation</a></div>
-                </div>
-                
             </div>
         </div>
 
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Plan (Sep 8)
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <div class="row">
-                        <strong><button class="btn btn-info" role="button" download="projectPlan" href="./docs/plan/Trufflr_Project_Plan_Signed.pdf">Plan</button></strong>
-                    </div>
-                    <div class="row">
-                        <strong><button class="btn btn-info" role="button" download="projectPlanPresentation" href="./docs/plan/ProjectPlan.pdf">Presentation</button></strong>
-                    </div>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Milestone 1 (Oct 4)
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <div class="row">
-                        <strong><button class="btn btn-info" role="button" download="projectPlan" href="./docs/plan/Trufflr_Project_Plan_Signed.pdf">Plan</button></strong>
-                    </div>
-                    <div class="row">
-                        <strong><button class="btn btn-info" role="button" download="projectPlanPresentation" href="./docs/plan/ProjectPlan.pdf">Presentation</button></strong>
-                    </div>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Milestone 2 (Nov 1)
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <div class="row">
-                        <strong><button class="btn btn-info" role="button" download="projectPlan" href="./docs/plan/Trufflr_Project_Plan_Signed.pdf">Plan</button></strong>
-                    </div>
-                    <div class="row">
-                        <strong><button class="btn btn-info" role="button" download="projectPlanPresentation" href="./docs/plan/ProjectPlan.pdf">Presentation</button></strong>
-                    </div>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFour">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    Milestone 3 (Nov 29)
-                  </button>
-                </h2>
-                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <div class="row">
-                        <strong><button class="btn btn-info" role="button" download="projectPlan" href="./docs/plan/Trufflr_Project_Plan_Signed.pdf">Plan</button></strong>
-                    </div>
-                    <div class="row">
-                        <strong><button class="btn btn-info" role="button" download="projectPlanPresentation" href="./docs/plan/ProjectPlan.pdf">Presentation</button></strong>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-        
         <!-- Semester 2 -->
-        <div id="sem2" class="container-fluid">
-            <div class="container-sm text-center ">
-    
-                <h3 class='section-heading text-center'>Second Semester</h3>
-        
-                <div class="row">
-                    <div class="col-6">Plan (TBD)</div>
-                    <div class="col-6"><a role="button" download="projectPlanSemester2" href="">Plan</a>, <a role="button" download="projectPlanPresentationSemester2" href="">Presentation</a></div>
-                </div>
-        
-                <div class="row">
-                    <div class="col-6">Milestone 4 (TBD)</div>
-                    <div class="col-6"><a href="">Presentation<Apr 20/a>, <a role="button" href="">Progress Evaluation</a></div>
-                </div>
-        
-                <div class="row">
-                    <div class="col-6">Milestone 5 (TBD)</div>
-                    <div class="col-6"><a href="">Poster</a>, <a href="ebook.pdf">e-book page</a>, <a href="">Presentation</a>, <a href="">Progress Evaluation</a></div>
-                </div>
-        
-                <div class="row">
-                    <div class="col-6">Milestone 6 (TBD)</div>
-                    <div class="col-6"><a href="">User/Developer Manual</a>, <a href="">Demo Video</a>, <a href="">Presentation</a>, <a href="">Progress Evaluation</a></div>
+        <div class="row container-fluid" id="sem2">
+            <h3 class='section-heading text-center'>Second Semester</h3>
+            <div class="col-6 center">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Plan (TBD)
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlan" href="">Plan</button></strong>
+                            </div>
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlanPresentation" href="">Presentation</button></strong>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Milestone 4 (TBD)
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlan" href="">Presentation</button></strong>
+                            </div>
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlanPresentation" href="">Progress Evaluation</button></strong>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Milestone 5 (TBD)
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlan" href="">Poster</button></strong>
+                            </div>
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlanPresentation" href="">Ebook Page</button></strong>
+                            </div>
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlanPresentation" href="">Presentation</button></strong>
+                            </div>
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlanPresentation" href="">Progress Evaluation</button></strong>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Milestone 6 (TBD)
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlan" href="">User/Developer Manual</button></strong>
+                            </div>
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlanPresentation" href="">Demo Video</button></strong>
+                            </div>
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlanPresentation" href="">Presentation</button></strong>
+                            </div>
+                            <div class="row">
+                                <strong><button class="btn btn-dark abtn btn-md" role="button" download="projectPlanPresentation" href="">Progress Evaluation</button></strong>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
