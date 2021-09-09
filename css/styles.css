@@ -145,6 +145,10 @@ p {
         text-align: center;
     }
 
+    #team {
+        float: center;
+    }
+
     .title-image {
         transform: rotate(0);
         position: static;
