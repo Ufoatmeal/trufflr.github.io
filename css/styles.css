@@ -1,3 +1,15 @@
+/* 
+    Color Codes
+    #f7976f
+    #eb6307
+    #ec5544
+    #552014
+    #366970
+    #3f7c85
+
+    #808000
+*/
+
 body {
     font-family: "Montserrat, sans-serfit";
     text-align: center;
@@ -5,11 +17,19 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat-Bold";
+    color: #000;
 }
 
 p {
-    color: #8f8f8f;
+    color: #000;
 }
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
 
 /* Headings */
 
@@ -34,12 +54,13 @@ p {
 /* Sections */
 
 .colored-section {
-    background-color: #F98404;
-    color: #fff;
+    background-image: linear-gradient(to bottom right, #808000,#EAE7D9);
+    color: #fcfae8;
 }
 
 .white-section {
     background-color: #fff;
+    margin: 6.25rem 0;
 }
 
 /* Nav Bar */
@@ -52,10 +73,12 @@ p {
     font-family: "Ubuntu";
     font-size: 2.5rem;
     font-weight: bold;
+    color: black;
 }
 
 .nav-item {
     padding: 0 18px;
+    color: black;
 }
 
 .nav-link {
@@ -84,10 +107,34 @@ p {
 }
 
 
+/* Contact Section */
+.contact-row {
+    width: 100%;
+    margin: 6.25rem auto;
+    text-align: center;
+}
+
+.contact-img {
+    height: 12.5rem;
+    width: 12.5rem;
+    float: center;
+}
+
+/* Falculty  */
+.closeGap {
+    padding: 0 0;
+    margin: 0 0;
+}
+
 /* Footer Section */
 
 .footer-icon {
     margin: 20px 10px;
+}
+
+#footer .white-section {
+    background-color: #fff;
+    margin: 1.25rem 0;
 }
 
 /* Media */
