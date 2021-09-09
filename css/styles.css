@@ -62,7 +62,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .white-section {
     background-color: #fff;
-    margin: 6.25rem 0;
+    /* margin: 6.25rem 0; */
+}
+
+.team-section {
+    background-color: #fcfae8;
+    color: #232e38;
+    /* margin: 6.25rem 0; */
+}
+
+.advisor-section {
+    background-color: #334355;
+    color: #fff;
+    /* margin: 6.25rem 0; */
+}
+
+.footer-section {
+    background-color: #232e38;
+    color: #fcfae8;
+    /* margin: 6.25rem 0; */
 }
 
 /* Nav Bar */
@@ -89,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-color {
-    background-color: #334355;
+    background-color: #232e38;
 }
 
 /* landing */
@@ -156,10 +174,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 20px 10px;
 }
 
-#footer .white-section {
-    background-color: #fff;
+/* #footer .white-section {
+    background-color: #232e38;
     margin: 1.25rem 0;
-}
+} */
 
 #footer {
     background-color: #232e38;
