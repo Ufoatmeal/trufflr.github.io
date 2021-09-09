@@ -8,6 +8,9 @@
     #3f7c85
 
     #808000
+
+    #232e38
+    #334355
 */
 
 body {
@@ -17,12 +20,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat-Bold";
-    color: #000;
 }
 
-p {
+/* p {
     color: #000;
-}
+} */
 
 .center {
     margin: auto;
@@ -65,25 +67,35 @@ p {
 
 /* Nav Bar */
 
-.navbar {
+/* .navbar {
     padding: 0 0 4.5rem 0;
-}
+} */
 
 .navbar-brand {
     font-family: "Ubuntu";
     font-size: 2.5rem;
     font-weight: bold;
-    color: black;
+    color: #fff;
 }
 
 .nav-item {
     padding: 0 18px;
-    color: black;
+    color: #fff;
 }
 
 .nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat-light";
+}
+
+.nav-color {
+    background-color: #334355;
+}
+
+/* landing */
+
+.lander {
+    margin: 6.25rem 0 0 0;
 }
 
 /* Title */
@@ -141,6 +153,11 @@ p {
 #footer .white-section {
     background-color: #fff;
     margin: 1.25rem 0;
+}
+
+#footer {
+    background-color: #232e38;
+    color: #fff;
 }
 
 /* Media */
